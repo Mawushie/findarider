@@ -7,9 +7,9 @@ body{
 
 }
 
-.findRider{
+#navheading{
     font-family: 'Architects Daughter', cursive;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bolder;
     color: lightgreen;
 }
@@ -40,4 +40,5 @@ h1{
 
 .addressarea > button{
     background-color: black;
+    
 }
