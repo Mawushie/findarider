@@ -2,6 +2,8 @@ body{
     background: url(/images/background.jpg) no-repeat 0;
     background-size: cover;
     height: 100vh;
+    background-blend-mode: overlay;
+    background-color:rgba(16, 30, 34, 0.76);
 
 }
 
@@ -9,6 +11,7 @@ body{
     font-family: 'Architects Daughter', cursive;
     font-size: 30px;
     font-weight: bolder;
+    color: lightgreen;
 }
 
 .signin{
@@ -24,6 +27,7 @@ body{
 
 h1{
     font-weight: bolder;
+    color:gold;
 }
 
 .addressarea{
@@ -36,4 +40,5 @@ h1{
 
 .addressarea > button{
     background-color: black;
+    
 }
