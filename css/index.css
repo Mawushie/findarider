@@ -1,0 +1,39 @@
+body{
+    background: url(/images/background.jpg) no-repeat 0;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.findRider{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.signin{
+    padding: 8px 12px;
+    border-radius: 16px;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.content{
+    margin-top: 250px;
+}
+
+h1{
+    font-weight: bolder;
+}
+
+.addressarea{
+    display: flex;
+}
+
+.addressarea > input{
+    margin-right: 5px;
+}
+
+.addressarea > button{
+    background-color: black;
+}
