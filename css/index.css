@@ -1,28 +1,53 @@
-body{
+/* body{
     background: url(/images/background.jpg) no-repeat 0;
     background-size: cover;
     height: 100vh;
     background-blend-mode: overlay;
     background-color:rgba(16, 30, 34, 0.76);
 
+} */
+
+body{
+    color: black;
 }
 
-.findRider{
+.container-fluid{/*inserts background image*/
+    background: url(/images/background.jpg) no-repeat 0, 0;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color:rgba(16, 30, 34, 0.76);
+    
+  }
+ .mynav{ 
+    background-color: rgba(16, 30, 34, 0.76)!important;
+}
+
+
+
+.navbar-light .navbar-brand {
     font-family: 'Architects Daughter', cursive;
     font-size: 30px;
     font-weight: bolder;
-    color: lightgreen;
+    color: gold;
 }
 
 .signin{
     padding: 8px 12px;
     border-radius: 16px;
-    font-size: 16px;
-    background-color: transparent;
+    font-size: 14px;  
+}
+
+#signin{
+    background-color: transparent!important;
 }
 
 .content{
-    margin-top: 250px;
+    margin-top: 300px;
 }
 
 h1{
@@ -39,5 +64,34 @@ h1{
 }
 
 .addressarea > button{
-    background-color: black;
+    background-color: rgba(16, 30, 34, 0.76);
+}
+
+.footer{ /*css for footer*/
+    height: 55px;
+    background-color: #1b2a30;
+    color: white;  
+    margin-top: 25px;
+    width: 100%;
+}
+
+.socials{/*removes default 'decorations' on list*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-right: 200px;/*gives space on right side of insta logo*/
+}
+
+.socials > li > a {/*gets the lists to display horizontally*/
+    float: left;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #5dbcd2; /*change color of social media icons*/
+  }
+
+  .link{/*shift links to right of div*/
+    float: right;
 }
