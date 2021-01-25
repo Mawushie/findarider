@@ -24,7 +24,7 @@ body{
     
   }
 
-a{
+.signinpage {
     text-align: center;
     padding-top: 100px;
     font-family: 'Architects Daughter', cursive;
@@ -32,9 +32,16 @@ a{
     font-weight: bolder;
     color: gold;
     text-decoration: none;
+    
 }
 
-.container{
+a:hover {
+    color: gold;
+    text-decoration: none;
+   }
+ 
+
+.container{/*shifting the welcome div to the right a little*/
    margin-left: 300px;
 }
 
@@ -45,6 +52,11 @@ label{
 
 button{
     background-color: #17313f!important;
+}
+
+.createAccount > a > h5{
+   display: inline-block;
+    color: white;
 }
 .footer{ /*css for footer*/
     height: 55px;

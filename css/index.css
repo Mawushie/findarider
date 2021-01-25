@@ -13,7 +13,7 @@ body{
 
 .container-fluid{/*inserts background image*/
     background: url(/images/background.jpg) no-repeat 0, 0;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     position: relative;
     display: flex;
@@ -29,13 +29,15 @@ body{
 
 
 
-.navbar-light .navbar-brand {
+.navbar-light .navbar-brand{
     font-family: 'Architects Daughter', cursive;
     font-size: 30px;
     font-weight: bolder;
     color: gold;
 
 }
+
+
 
 .signin{
     padding: 8px 12px;
@@ -51,7 +53,7 @@ body{
     margin-top: 300px;
 }
 
-h1{
+h2 , h4 {
     font-weight: bolder;
     color:gold;
 }

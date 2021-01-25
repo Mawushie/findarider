@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/signin.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -16,36 +16,28 @@
     <title>Find A Rider</title>
   </head>
   <body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mynav fixed-top">
+      <a href="/index.html"><h1 class="navbar-brand">Find A Rider</h1></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     
-    <div class="container-fluid">
-        <a href="/index.html" class="signinpage"><h1 class="">Find A Rider</h1></a>
-        <br>
-        <div class="container">
+    </nav>
+  
 
-            <h2>Welcome back</h2><br>
-            <form>
-                <div class="form-group w-50">
-                <label for="formGroupExampleInput">Sign in with your email address or mobile number.</label>
-                <input type="text" class="form-control form-control-lg" id="formGroupExampleInput" placeholder="Email or mobile number" required>
-                </div> 
-
-                <div class="form-group w-50">
-                    <label for="formGroupExampleInput">Password</label>
-                    <input type="password" class="form-control form-control-lg" id="formGroupExampleInput2" placeholder="Password" required>
-                </div>
-                <br>
-
-                <a href="/active.html"><button type="button" class="btn btn-secondary btn-lg w-50">Sign in</button></a>
-                <br><br>
-
-                <div class="createAccount w-50">
-                    <a href="/signup.html"><h5 style="float:left;">Create an account</h5></a>
-                    <a href="/forgot.html"><h5 style="float:right;">Forgot Password</h5></a>
-                </div>
-            </form>
-        </div>
-
+    <div class="content">
+      <h4>Enter delivery address and select a date for delivery.</h4>
     </div>
+
+    <div class="form-group w-50 addressarea">
+      <input type="text" class="form-control form-control-lg" placeholder=" Enter Delivery Address" name="text3">
+      <button type="button" class="btn btn-secondary btn-lg w-50">Schedule Delivery</button>
+    </div>
+
+   
+    
+  </div>
 
     <div class="footer">
       <div class="row">
