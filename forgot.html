@@ -18,15 +18,21 @@
   <body>
     
     <div class="container-fluid">
-        <a href="/index.html" class="signinpage"><h1 class="">Find A Rider</h1></a>
-        <br>
-        <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mynav fixed-top">
+            <a href="/index.html"><h1 class="navbar-brand">Find A Rider</h1></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+        </nav>
+
+        <div class="container signinpage">
             <form>
                 <div class="form-group w-50">
                 <label for="formGroupExampleInput">Provide email address or mobile number.</label> <br> <br>
                 <input type="text" class="form-control form-control-lg" id="formGroupExampleInput" placeholder="Email or mobile number" required>
-                </div> 
-                <a href="/active.html"><button type="button" class="btn btn-secondary btn-lg w-50">Send reset link or code</button></a>
+                </div> <br>
+                <a href="/signin.html"><button type="button" class="btn btn-secondary btn-lg w-50">Send reset link or code</button></a>
             </form>
         </div>
 
