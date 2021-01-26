@@ -1,12 +1,3 @@
-/* body{
-    background: url(/images/background.jpg) no-repeat 0;
-    background-size: cover;
-    height: 100vh;
-    background-blend-mode: overlay;
-    background-color:rgba(16, 30, 34, 0.76);
-
-} */
-
 body{
     color: black;
 }
@@ -53,7 +44,7 @@ body{
 
 h2 , h4 {
     font-weight: bolder;
-    color:gold;
+    color:white;
 }
 
 .addressarea{
@@ -69,11 +60,18 @@ h2 , h4 {
 }
 
 .footer{ /*css for footer*/
-    height: 55px;
+    margin-top: 25px;
+    height: 60px;;
     background-color: #1b2a30;
     color: white;  
-    margin-top: 25px;
-    width: 100%;
+   
+}
+
+.rights{/*styles the text that says all rights reserved*/
+    text-align: center;
+    padding: 20px;
+    font-weight: lighter;
+    font-size: 15px;
 }
 
 .socials{/*removes default 'decorations' on list*/
@@ -81,7 +79,7 @@ h2 , h4 {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    padding-right: 200px;/*gives space on right side of insta logo*/
+    padding-right: 200px;  /*gives space on right side of insta logo*/
 }
 
 .socials > li > a {/*gets the lists to display horizontally*/
@@ -98,3 +96,55 @@ h2 , h4 {
 }
 
 
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .footer{ /*css for footer*/
+        display: flex;
+        margin-top: 25px;
+        height: auto;;
+        background-color: #1b2a30;
+        color: white;  
+    }
+
+    .socials{/*removes default 'decorations' on list*/
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      
+    } 
+
+    .list{
+        position: relative !important;
+        padding-right: 15px;
+        padding-left: 15px;
+        width: fit-content;
+        margin: auto;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .footer{ /*css for footer*/
+        display: flex;
+        margin-top: 25px;
+        height: auto;;
+        background-color: #1b2a30;
+        color: white;  
+    }
+
+    .socials{/*removes default 'decorations' on list*/
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      
+    } 
+    .list{
+        position: relative !important;
+        padding-right: 15px;
+        padding-left: 15px;
+        width: fit-content;
+        margin: auto;
+    }
+ }
