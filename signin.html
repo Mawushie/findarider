@@ -29,30 +29,33 @@
 
       <div class="container signinContent">
         <div class="row">
-          <h2>Welcome back</h2><br><br>
+          <div class="col">
+          <h2>Welcome back</h2><br>
+        </div>
         </div>
 
-        <div class="row">
+        
           <form>
-            <div class="form-group">
-              <label for="formGroupExampleInput">Sign in with your email address or mobile number.</label> <br>
-              <input type="text" class="form-control form-control-lg" id="formGroupExampleInput" placeholder="Email or mobile number" required>
-            </div> 
+            <div class="row">
+              <div class="col-xs-12 col-md-12 form-group">
+                <label for="formGroupExampleInput">Sign in with your email address or mobile number.</label> <br>
+                <input type="text" class="form-control form-control-lg" id="formGroupExampleInput" placeholder="Email or mobile number" required>
+              </div> 
 
-            <div class="form-group">
-              <label for="formGroupExampleInput">Password</label>
-              <input type="password" class="form-control form-control-lg" id="formGroupExampleInput2" placeholder="Password" required>
-            </div>
-            
-            <div class="form-group">
-              <a href="/active.html"><button type="button" class="btn btn-secondary btn-lg btn-block" onclick="signin()">Sign in</button></a>
-            </div>
+              <div class="col-xs-12 col-md-12 form-group">
+                <label for="formGroupExampleInput">Password</label>
+                <input type="password" class="form-control form-control-lg" id="formGroupExampleInput2" placeholder="Password" required>
+              </div>
+              
+              <div class="col-xs-12 col-md-12 form-group">
+                <a href="/active.html"><button type="button" class="btn btn-secondary btn-lg btn-block" onclick="signin()">Sign in</button></a>
+              </div>
 
-            <div class="createAccount">
-              <a href="/signup.html"><h5 style="float:left;">Create an account</h5></a>
-              <a href="/forgot.html"><h5 style="float:right;">Forgot Password</h5></a>
-            </div>
-
+              <div class="col-xs-12 col-md-12 createAccount">
+                <a href="/signup.html"><h5 style="float:left;">Create an account</h5></a>
+                <a href="/forgot.html"><h5 style="float:right;">Forgot Password</h5></a>
+              </div>
+              </div>
           </form>
         </div>
       </div>

@@ -42,6 +42,7 @@ a:hover {
 form{
     width: 50%;
 }
+
 label{
     font-size: larger;
     font-weight: bold;
@@ -125,5 +126,13 @@ button{
         padding-left: 15px;
         width: fit-content;
         margin: auto;
+    }
+
+    form{
+        width: 100%;
+    }
+    .createAccount > a > h5{
+        display: inline-block;
+        color: white;
     }
     }
