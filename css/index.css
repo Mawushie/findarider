@@ -123,6 +123,8 @@ h2 , h4 {
     }
 }
 
+
+/*media query for the footer*/
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
     .footer{ /*css for footer*/

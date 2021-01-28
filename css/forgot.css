@@ -59,9 +59,13 @@ button{
 
 .footer{ /*css for footer*/
     height: 55px;
-    background-color: #1b2a30;
     color: white;  
     margin-top: 25px;
+    position: fixed;
+    left: 0;
+    bottom: 3px;
+   
+
 }
 
 .rights{/*styles the text that says all rights reserved*/
@@ -113,7 +117,6 @@ button{
     color: white; 
   
 }
-
 
 .socials{/*removes default 'decorations' on list*/
     list-style-type: none;

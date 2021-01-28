@@ -35,9 +35,12 @@
           <h2>Looking to have a package delivered?</h2>
   
           <div class="row form-group w-75 addressarea">
-            <input type="text" class="col-sm form-control form-control-lg" placeholder="Enter Delivery Address" name="text3">
-            <input type="date" class="col-sm form-control form-control-lg" placeholder="Select Date" name="text3">
-            <button type="button" class="col btn btn-secondary btn-lg w-50">Schedule Delivery</button>
+            <input type="text" class="col-sm form-control form-control-lg" placeholder="Enter Delivery Address" name="text3" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+
+            <input type="date" class="col-sm form-control form-control-lg" placeholder="Select Date" name="text3" required>
+            <a href="/signin.html"><button type="button" class="col btn btn-secondary btn-lg">Schedule Delivery</button></a>
           </div>
   
       </div>
