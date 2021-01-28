@@ -58,10 +58,10 @@ button{
 }
 
 .footer{ /*css for footer*/
-    height: 55px;
+    height: 80px;;
     background-color: #1b2a30;
     color: white;  
-    margin-top: 25px;
+   
 }
 
 .rights{/*styles the text that says all rights reserved*/
@@ -107,8 +107,7 @@ button{
 @media (max-width: 767.98px) { 
 .footer{ /*css for footer*/
     display: flex;
-    margin-top: 25px;
-    height: auto;;
+    height: 80px;;
     background-color: #1b2a30;
     color: white; 
   
