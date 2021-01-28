@@ -31,42 +31,44 @@
           </div>
         </nav>
      
-      <div class="container">
+      <div class="container-fluid">
         <div class="row content">
+            <div class="col">
             <h2>Looking to have a package delivered?</h2>
+          </div>
         </div>
-
-        <div class="row">
-          <form>
-            <div class="form-group">
-              
-              <input type="text" class="col-sm form-control form-control-lg" placeholder="Enter Delivery Address" name="text3" required>
-            </div> 
-    
-            <div class="form-group">
-              
-              <input type="date" class="col-sm form-control form-control-lg" placeholder="Select Date" name="text3" required>
-            </div>
-            
-            <div class="form-group">
-              <a href="/signin.html"><button type="button" class="col btn btn-secondary btn-lg">Schedule Delivery</button></a>
+      
+      
+        <form>
+          <div class="row">
+            <div class="col-xs-12 col-md-4">
+              <input type="text" class="form-control form-control-lg" id="email" placeholder="Enter delivery address" name="email">
             </div>
 
-          </form>
+            <div class="col-md-4">
+              <input type="date" class="form-control form-control-lg" placeholder="Select Date" name="date">
+            </div>
 
-        </div>
+            <div class="col-xs-12 col-md-4 schedule">
+              <a href="/signin.html"><button type="button" class="btn btn-secondary btn-lg btn-block" onclick="schedule()">Schedule Delivery</button></a>            </div>
+          </div>
+        </form>
+
+        
       </div>
-  
+          
+
     </div>
+  
       
     <div class="row footer">
-      <div class="col-sm rights">
+      <div class="col-xs col-md-6 rights">
           <p>
               &copy; 2021 Find A Rider. All Rights Reserved
           </p>
       </div>
   
-      <div class="col-sm list">
+      <div class="col-xs col-md-6 list">
         <ul class="list-group list-group-horizontal float-right socials">
           <li class="link"><a href="#" class="fa fa-instagram"></a></li>
           <li class="link"><a href="#" class="fa fa-linkedin"></a></li>
@@ -74,12 +76,12 @@
           <li class="link"><a href="#" class="fa fa-facebook"></a></li>      
         </ul>
       </div>
-    </div>
+    </div> 
    
 
       <!--jQuery and Bootstrap Bundle (includes Popper) -->
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-
+      
   </body>
 </html>

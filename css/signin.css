@@ -39,13 +39,13 @@ a:hover {
     margin-top: 180px;
 }
 
-
+form{
+    width: 50%;
+}
 label{
     font-size: larger;
     font-weight: bold;
 }
-
-
 
 button{
     background-color: #17313f!important;
@@ -101,31 +101,29 @@ button{
 }
 
 
-
 /*media query for the footer*/
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
-.footer{ /*css for footer*/
-    display: flex;
-    height: 80px;;
-    background-color: #1b2a30;
-    color: white; 
-  
-}
-
-
-.socials{/*removes default 'decorations' on list*/
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  
-} 
-.list{
-    position: relative !important;
-    padding-right: 15px;
-    padding-left: 15px;
-    width: fit-content;
-    margin: auto;
-}
-}
+    .footer{ /*css for footer*/
+        display: flex;
+        height: auto;;
+        background-color: #1b2a30;
+        color: white; 
+      
+    }
+    
+    .socials{/*removes default 'decorations' on list*/
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      
+    } 
+    .list{
+        position: relative !important;
+        padding-right: 15px;
+        padding-left: 15px;
+        width: fit-content;
+        margin: auto;
+    }
+    }

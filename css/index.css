@@ -47,18 +47,20 @@ h2 , h4 {
     color:white;
 }
 
-.addressarea{
-    display: flex;
+.schedule > a:hover{
+    text-decoration: none;
 }
 
-.addressarea > input{
-    margin-right: 5px;
+
+.schedule > a > button{
+    background-color: rgba(89, 147, 163, 0.76);
 }
 
-.addressarea > button{
-    background-color: rgba(16, 30, 34, 0.76);
-}
 
+.schedule > a > button:hover{
+   
+    background-color: skyblue;
+}
 .footer{ /*css for footer*/
     height: 80px;;
     background-color: #1b2a30;
@@ -95,45 +97,18 @@ h2 , h4 {
 }
 
 
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
-    .footer{ /*css for footer*/
-        display: flex;
-        height: 80px;;
-        background-color: #1b2a30;
-        color: white; 
-      
-    }
-
-    .socials{/*removes default 'decorations' on list*/
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-      
-    } 
-
-    .list{
-        position: relative !important;
-        padding-right: 15px;
-        padding-left: 15px;
-        width: fit-content;
-        margin: auto;
-    }
-}
-
-
 /*media query for the footer*/
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
     .footer{ /*css for footer*/
         display: flex;
-        height: 150px;;
+        margin-top: 25px;
+        height: auto;;
         background-color: #1b2a30;
         color: white; 
       
     }
-
+    
     .socials{/*removes default 'decorations' on list*/
         list-style-type: none;
         margin: 0;
@@ -148,4 +123,4 @@ h2 , h4 {
         width: fit-content;
         margin: auto;
     }
- }
+    }
